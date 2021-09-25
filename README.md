@@ -9,4 +9,4 @@ License
 Contribution
 Tests
 Github
-E-mail
+E-mai

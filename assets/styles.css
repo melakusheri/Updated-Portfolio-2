@@ -1,3 +1,7 @@
+/*--------------------------------------------------------------
+# body
+--------------------------------------------------------------*/
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -15,12 +19,10 @@ section {
     font-size: 40px;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 80px;
-}
+
+/*--------------------------------------------------------------
+# home page
+--------------------------------------------------------------*/
 
 nav {
     display: flex;
@@ -32,7 +34,7 @@ ul {
     list-style-type: none;
     width: 500px;
     justify-content: space-around;
-    font-size: 20px;
+    font-size: 18px;
     margin: 2ex;
 }
 
@@ -144,6 +146,11 @@ p {
     align-items: center;
 }
 
+
+/*--------------------------------------------------------------
+# project section
+--------------------------------------------------------------*/
+
 .project-card {
     width: 300px;
     height: 500px;
@@ -192,6 +199,11 @@ a {
     color: white;
 }
 
+
+/*--------------------------------------------------------------
+# Skill section
+--------------------------------------------------------------*/
+
 .project-skillcard {
     width: 300px;
     height: 500px;
@@ -223,4 +235,54 @@ a {
     width: 200px;
     height: 200px;
     margin: 40px;
+}
+
+
+/*--------------------------------------------------------------
+# My Resume
+--------------------------------------------------------------*/
+
+.resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #3b434a;
+}
+
+.resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #82909c;
+    position: relative;
+}
+
+.resume-item h4 {
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffb727;
+    margin-bottom: 10px;
+}
+
+.resume-item h5 {
+    font-size: 16px;
+    background: #eef0f2;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+/*--------------------------------------------------------------
+# fotter 
+--------------------------------------------------------------*/
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
 }

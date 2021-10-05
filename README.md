@@ -14,3 +14,4 @@ Github
 https://github.com/melakusheri/Updated-Portfolio-2
 
 E-mai
+mailangels@gmail.com
